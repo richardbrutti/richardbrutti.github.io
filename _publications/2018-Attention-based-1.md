@@ -1,7 +1,7 @@
 ---
 title: "Attention-based Sequence Classification for Affect Detection"
 collection: publications
-#category: conferences
+category: conferences
 permalink: /publication/2018-Attention-based-1
 excerpt: 'We developed an attention-based LSTM model for recognizing emotion from speech, using class balancing strategies to improve detection of underrepresented emotional states, as part of the Interspeech ComParE challenge.'
 date: 2018-09-01
