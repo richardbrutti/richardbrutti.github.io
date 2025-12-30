@@ -1,10 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Natural Language Annotation for Machine Learning - COSI 230B"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+type: "Teaching Assistant"
+permalink: /teaching/2025-spring-teaching-1
+venue: "Brandeis, Computer Science"
+date: 2024-01-01
 location: "City, Country"
 ---
 
