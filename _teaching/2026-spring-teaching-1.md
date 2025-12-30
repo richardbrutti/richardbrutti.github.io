@@ -3,18 +3,10 @@ title: "Natural Language Annotation for Machine Learning - COSI 230B"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2026-spring-teaching-1
-venue: "Brandeis, Computer Science"
+venue: "Brandeis, Computer Science Department"
 date: 2026-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Led lab sessions for corpus linguistics course, focusing on data mining, information extraction, and machine learning. Students model, annotate, train, test, evaluate, and revise their own corpus for machine learning.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

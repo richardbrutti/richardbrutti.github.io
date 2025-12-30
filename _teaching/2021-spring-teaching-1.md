@@ -3,18 +3,9 @@ title: "Linguistic Typology"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2021-spring-teaching-1
-venue: "Brandeis, Linguistics"
+venue: "Brandeis, Linguistics Department"
 date: 2021-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Linguistic Typology course, focusing on how the world's languages differ and what grammatical patterns they share across diverse language families.
