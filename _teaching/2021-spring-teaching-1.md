@@ -1,5 +1,5 @@
 ---
-title: "Linguistic Typology"
+title: "Linguistic Typology - LING 125B"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2021-spring-teaching-1
