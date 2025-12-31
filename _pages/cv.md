@@ -11,26 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science (Computational Linguistics), Brandeis University, 2026 (expected)
+* M.A. in Computational Lingustics Brandeis University, 2012
+* B.A. in Italian & Linguistics, Boston College, 2006
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Oct. 2024 - Present: **Director, Research** | Verint
+  * Lead ML research team (3 scientists) and multilingual annotation operations
+  * Research areas: real-time ASR, multimodal conversational analysis, unsupervised topic discovery, cross-lingual emotion modeling
+* Feb. 2015 - Oct. 2024: **Director, Machine Learning & Annotation** | Cogito (acquired by Verint)
+  * ML models for behavioral and conversational analysis
+* Sep. 2014 - Feb. 2015: **Senior PM, Alexa Data Services** | Amazon
+  * Language data strategy for Alexa voice assistant (Beta through launch)
+* 2007 - 2014: **Earlier roles in MT, localization, and NLP**
+  * Language Scientific, Pangeanic, Language Connections | *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+
+
   
 Skills
 ======
@@ -59,6 +58,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
+* Admissions Conditions Reviewer for Brandeis CL MS program 2022 - 2024
+* Reviewer: ACL SRW, CogSci, PEER, MMSYM
