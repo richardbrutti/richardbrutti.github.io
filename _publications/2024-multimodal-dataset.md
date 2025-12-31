@@ -1,7 +1,7 @@
 ---
 title: "When text and speech are not enough: A multimodal dataset of collaboration in a situated task"
 collection: publications
-category: journals
+category: conferences
 permalink: /publication/2024-multimodal-dataset
 excerpt: 'A multimodal dataset of collaborative interactions with annotations for gesture, speech, gaze, joint attention, and engagement in a shared task.'
 date: 2024-01-01
