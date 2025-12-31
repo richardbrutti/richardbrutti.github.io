@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * PhD in Computer Science, Brandeis University, 2026 (expected)
-* MA in Computational Lingustics, Brandeis University, 2012
+* MA in Computational Linguistics, Brandeis University, 2012
 * BA in Italian & Linguistics, Boston College, 2006
 
 Work Experience
