@@ -23,14 +23,14 @@ repository               : "richardbrutti/richardbrutti.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "rb_headshot.jpeg"
   name             : "Richard Brutti"
   pronouns         : # example: "she/her"  
   bio              : "Computational Linguist"
   location         : "Massachusetts, USA"
   employer         : "Brandeis University"
   uri              : # URL
-  email            : "richardbrutti@gmail.com" 
+  email            : "brutti@brandeis.edu" 
 
   # Academic websites
 #  academia         : # URL

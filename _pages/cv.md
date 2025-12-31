@@ -17,18 +17,18 @@ Education
 
 Work Experience
 ======
-* Oct. 2024 - Present: **Director, Research** | Verint
+* Oct. 2024 - Present: **Director, Research**, *Verint*
   * Lead ML research team (3 scientists) and multilingual annotation operations
   * Research areas: real-time ASR, multimodal conversational analysis, unsupervised topic discovery, cross-lingual emotion modeling
-* Feb. 2015 - Oct. 2024: **Director, Machine Learning & Annotation** | Cogito (acquired by Verint)
+* Feb. 2015 - Oct. 2024: **Director, Machine Learning & Annotation**, *Cogito* (acquired by VERINT)
   * ML models for behavioral and conversational analysis
-* Sep. 2014 - Feb. 2015: **Senior PM, Alexa Data Services** | Amazon
+* Sep. 2014 - Feb. 2015: **Senior PM, Alexa Data Services**, *Amazon*
   * Language data strategy for Alexa voice assistant (Beta through launch)
 * 2007 - 2014: **Earlier roles in MT, localization, and NLP**
-  * Language Scientific, Pangeanic, Language Connections | *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
+  * *Language Scientific*, *Pangeanic*, *Language Connections* | *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
 
  
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -36,6 +36,7 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+  -->
 
 Publications
 ======
