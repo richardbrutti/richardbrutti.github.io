@@ -39,13 +39,13 @@ Work Experience
   * Sub-skill 2.3
 * Skill 3
   -->
-
-Publications
+Service & Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
+* Admissions Conditions Reviewer for Brandeis CL MS program 2022 - 2024
+* Brandeis Mitchom School of Computer Science 2024 Outstanding Research Award
+* Reviewer: ACL SRW, CogSci, PEER, MMSYM
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -57,11 +57,13 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service & Awards
-======
-* Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
-* Admissions Conditions Reviewer for Brandeis CL MS program 2022 - 2024
-* Brandeis Mitchom School of Computer Science 2024 Outstanding Research Award
-* Reviewer: ACL SRW, CogSci, PEER, MMSYM
 
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+
+  
