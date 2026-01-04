@@ -28,7 +28,6 @@ Work Experience
   * Language data strategy for Alexa voice assistant (Beta through launch)
 * 2007 - 2014: **Earlier roles in localization, NLP and MT**
   * *[LANGUAGE SCIENTIFIC](https://www.languagescientific.com/)*, *[PANGEANIC](https://pangeanic.com/)*, *[LANGUAGE CONNECTIONS](https://www.languageconnections.com/)* -  *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
-
  
 <!-- Skills
 ======
@@ -39,6 +38,7 @@ Work Experience
   * Sub-skill 2.3
 * Skill 3
   -->
+
 Service & Awards
 ======
 * Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
@@ -58,12 +58,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
 
-  
