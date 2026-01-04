@@ -58,8 +58,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service
+Service & Awards
 ======
 * Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
 * Admissions Conditions Reviewer for Brandeis CL MS program 2022 - 2024
+* Brandeis Mitchom School of Computer Science 2024 Outstanding Research Award
 * Reviewer: ACL SRW, CogSci, PEER, MMSYM
+
