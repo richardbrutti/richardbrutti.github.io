@@ -8,4 +8,4 @@ date: 2021-01-01
 location: "Waltham, USA"
 ---
 
-Linguistic Typology course, focusing on how the world's languages differ and what grammatical patterns they share across diverse language families.
+Covering cross-linguistic variation and language universals
