@@ -8,4 +8,4 @@ date: 2021-01-01
 location: "Waltham, USA"
 ---
 
-Covering cross-linguistic variation and language universals
+Covering cross-linguistic variation and language universals.
