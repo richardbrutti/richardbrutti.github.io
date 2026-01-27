@@ -22,7 +22,7 @@ Work Experience
 * Oct. 2024 - Present: **Director, Research**, *[VERINT](https://www.verint.com/)*
   * Lead ML research team (3 scientists) and multilingual annotation operations
   * Research areas: real-time ASR, multimodal conversational analysis, unsupervised topic discovery, cross-lingual emotion modeling
-* Feb. 2015 - Oct. 2024: **Director, Machine Learning & Annotation**, *[COGITO](https://www.verint.com/cogito/)* (acquired by VERINT Oct. 2024)
+* Feb. 2017 - Oct. 2024: **Director, Machine Learning & Annotation**, *[COGITO](https://www.verint.com/cogito/)* (acquired by VERINT Oct. 2024)
   * Machine Learning models for behavioral and conversational analysis
 * Sep. 2014 - Feb. 2017: **Senior PM, Alexa Data Services**, *[AMAZON](https://www.amazon.science/tag/alexa)*
   * Language data strategy for Alexa voice assistant (Beta through launch)
