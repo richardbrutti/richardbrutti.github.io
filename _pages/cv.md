@@ -26,7 +26,7 @@ Work Experience
   * Machine Learning models for behavioral and conversational analysis
 * Sep. 2014 - Feb. 2017: **Senior PM, Alexa Data Services**, *[AMAZON](https://www.amazon.science/tag/alexa)*
   * Language data strategy for Alexa voice assistant (Beta through launch)
-* 2007 - 2014: **Earlier roles in localization, NLP, and Machine Translation**
+* 2007 - 2014: **Earlier roles in Localization, NLP, and Machine Translation**
   * *[LANGUAGE SCIENTIFIC](https://www.languagescientific.com/)*, *[PANGEANIC](https://pangeanic.com/)*, *[LANGUAGE CONNECTIONS](https://www.languageconnections.com/)* -  *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
  
 <!-- Skills
