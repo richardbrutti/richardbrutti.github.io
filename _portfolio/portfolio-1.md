@@ -9,7 +9,7 @@ My dissertation research develops formal semantic representations for non-verbal
 
 **Resources:** [Annotation Guidelines (PDF)](/files/Grunts_Annotation_Conventions.pdf)
 
-**Key publications:** [Abstract meaning representation for gesture](/publication/2022-gamr
+**Key publications:** [Abstract meaning representation for gesture](/publication/2022-gamr)
 
 
 ## Culinary Linguistics
