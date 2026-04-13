@@ -11,4 +11,4 @@ Hello! I am a late-stage PhD student in Computational Linguistics at Brandeis Un
 
 Learning what my last name means sent me down the linguistics path. I received my BA in Italian Studies & Linguistics from Boston College and MA in Computational Linguistics from Brandeis. 
 
-Throughout my PhD, I also work full-time as a Director of Research at a large SaaS company, managing Machine Learning and Annotation teams focused on speech and conversational data. Beyond my dissertation work, I have published on emotion recognition, technology in education, and culinary linguistics.
+I also work full-time as a Director of Research at a large SaaS company, managing Machine Learning and Annotation teams focused on speech and conversational data. Beyond my dissertation work, I have published on emotion recognition, technology in education, and culinary linguistics.
