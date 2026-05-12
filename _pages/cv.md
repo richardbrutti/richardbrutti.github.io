@@ -41,10 +41,11 @@ Work Experience
 
 Service & Awards
 ======
+* Brandeis Michtom School of Computer Science 2022 Outstanding Research Award
 * Co-organizer of Second Workshop on Multimodal Semantic Representations ([MMSR II](https://mmsr-workshop.github.io/)) at IWCS 2025
-* Admissions Conditions Reviewer for Brandeis Computational Linguistics MS program 2022 - 2024
-* Brandeis Mitchom School of Computer Science 2022 Outstanding Research Award
-* Reviewer: ACL Student Research Workshop, CogSci, PEER workshop (Processing and Evaluating Event Representations), MMSYM (Symposium Series on Multimodal Communication), DMR workshop (Designing Meaning Representations)
+* Program Committee, 7th International Workshop on Designing Meaning Representations (DMR 2026)
+* Reviewer: ACL Student Research Workshop, Cognitive Science Society, PEER, MMSYM
+* Admissions Reviewer for Brandeis Computational Linguistics MS Program 2022 - 2024
 
 Talks
 ======
