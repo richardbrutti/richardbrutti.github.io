@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* PhD in Computer Science, Brandeis University, 2026 (expected)
+* PhD in Computer Science, Brandeis University, July 2026 (expected)
 * MA in Computational Linguistics, Brandeis University, 2012
 * BA in Linguistics & Italian Studies, Boston College, 2006
 
 Work Experience
 ======
-*All roles concurrent with PhD studies (2020-Present)*
+*All full-time roles concurrent with PhD studies (2020-Present)*
 
 * Oct. 2024 - Present: **Director, Research**, *[VERINT](https://www.verint.com/)*
-  * Lead ML research team (3 scientists) and multilingual annotation operations
+  * Lead ML research team and multilingual annotation operations
   * Research areas: real-time ASR, multimodal conversational analysis, unsupervised topic discovery, cross-lingual emotion modeling
 * Feb. 2017 - Oct. 2024: **Director, Machine Learning & Annotation**, *[COGITO](https://www.verint.com/cogito/)* (acquired by VERINT Oct. 2024)
   * Machine Learning models for behavioral and conversational analysis
 * Sep. 2014 - Feb. 2017: **Senior PM, Alexa Data Services**, *[AMAZON](https://www.amazon.science/tag/alexa)*
-  * Language data strategy for Alexa voice assistant (Beta through launch)
+  * Language data production & strategy for Alexa voice assistant (Beta through launch)
 * 2007 - 2014: **Earlier roles in Localization, NLP, and Machine Translation**
   * *[LANGUAGE SCIENTIFIC](https://www.languagescientific.com/)*, *[PANGEANIC](https://pangeanic.com/)*, *[LANGUAGE CONNECTIONS](https://www.languageconnections.com/)* -  *Full details on [LinkedIn](https://www.linkedin.com/in/rbrutti/)*
  
