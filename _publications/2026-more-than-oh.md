@@ -1,5 +1,5 @@
 ---
-title: 'More Than "Oh": Grounding Observable Events with Grunts in Multimodal Dialogue'
+title: "More Than 'Oh': Grounding Observable Events with Grunts in Multimodal Dialogue"
 collection: publications
 category: conferences
 permalink: /publication/2026-more-than-oh
