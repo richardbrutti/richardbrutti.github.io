@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a late-stage PhD student in Computational Linguistics at Brandeis University, advised by Professor James Pustejovsky. My research focuses on formal semantic and computational models for non-verbal communication, such as gesture and grunts, using naturalistic multimodal data. 
+Hello! I recently completed my PhD in Computational Linguistics at Brandeis University, advised by Professor James Pustejovsky. My dissertation, *"Uh, Actually: Grunt Acts as Grounding Contributions in Multimodal Dialogue"*, focuses on formal semantic and computational models for non-verbal communication, such as gesture and grunts, using naturalistic multimodal data. 
 
 Learning what my last name means sent me down the linguistics path. I received my BA in Linguistics & Italian Studies from Boston College and MA in Computational Linguistics from Brandeis. 
 
