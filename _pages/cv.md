@@ -17,7 +17,7 @@ Education
 
 Work Experience
 ======
-*All full-time roles concurrent with PhD studies (2020-Present)*
+*All full-time roles concurrent with PhD studies (2020-2026)*
 
 * Oct. 2024 - Present: **Director, Research**, *[VERINT](https://www.verint.com/)*
   * Lead ML research team and multilingual annotation operations
