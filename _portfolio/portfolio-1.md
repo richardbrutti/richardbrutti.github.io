@@ -5,11 +5,13 @@ permalink: /portfolio/
 ---
 
 ## Multimodal Semantics
-My dissertation research develops formal semantic representations for non-verbal communication in dialogue. This includes **GAMR** (Gesture Abstract Meaning Representation), an extension of AMR for capturing gesture meaning, and work on **grunts** as complete communicative acts with distinct pragmatic functions.
+My dissertation research developed formal semantic representations for non-verbal communication in dialogue. This includes **GAMR** (Gesture Abstract Meaning Representation), an extension of AMR for capturing gesture meaning, and work on **grunts** as complete communicative acts with distinct pragmatic functions.
 
 **Resources:** [Annotation Guidelines (PDF)](/files/Grunts_Annotation_Conventions.pdf)
 
-**Key publications:** [Abstract meaning representation for gesture](/publication/2022-gamr)
+**Key publications:** [Abstract meaning representation for gesture](/publication/2022-gamr), The Grunt Work of Conversational Grounding: Minimal Responses in Multimodal Dialogue](/publication/2026-grunt-work)
+
+**Dissertation:** [*"Uh, Actually: Grunt Acts as Grounding Contributions in Multimodal Dialogue"*](/files/Brutti_Dissertation.pdf)
 
 
 ## Culinary Linguistics
