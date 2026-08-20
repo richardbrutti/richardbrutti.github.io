@@ -15,6 +15,7 @@ I also serve as Director of Research at a large SaaS company, managing Machine L
 
 ---
 
-<img src="/images/blue_striped_grunt_cropped.jpg" alt="Blue striped grunt" width="300">
-
-*The blue striped grunt (Haemulon sciurus), from Ripley's Aquarium of Canada, Toronto.*
+<figure>
+  <img src="/images/blue_striped_grunt_cropped.jpg" alt="Blue striped grunt" width="300">
+  <figcaption><em>The blue striped grunt (<em>Haemulon sciurus</em>), from Ripley's Aquarium of Canada, Toronto.</em></figcaption>
+</figure>
