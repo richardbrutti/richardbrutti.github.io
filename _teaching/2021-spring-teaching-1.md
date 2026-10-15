@@ -5,6 +5,7 @@ type: "Teaching Assistant"
 permalink: /teaching/2021-spring-teaching-1
 venue: "Brandeis, Linguistics Department"
 date: 2021-01-01
+term: "Spring"
 location: "Waltham, USA"
 ---
 

@@ -36,21 +36,25 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #a5cf8f;
+    --global-accent-color               : #f0855c;
+    --global-mustard-color              : #f0c35a;
+    --global-bg-color                   : #142019;
+    --global-card-bg-color              : #1b2a21;
+    --global-tint-color                 : #22392a;
+    --global-footer-bg-color            : #0f1913;
+    --global-border-color               : #2a3c30;
+    --global-dark-border-color          : #3d5444;
+    --global-code-background-color      : #1b2a21;
+    --global-code-text-color            : #ece6d8;
+    --global-fig-caption-color          : #a9a291;
+    --global-link-color                 : #a5cf8f;
+    --global-link-color-hover           : #f0855c;
+    --global-link-color-visited         : #a5cf8f;
+    --global-masthead-link-color        : #ece6d8;
+    --global-masthead-link-color-hover  : #a5cf8f;
+    --global-text-color                 : #ece6d8;
+    --global-text-color-light           : #a9a291;
+    --global-thead-color                : #22392a;
 }
 

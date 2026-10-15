@@ -1,0 +1,506 @@
+/* ==========================================================================
+   SITE CUSTOMIZATIONS
+   Visual layer on top of the Academic Pages theme. Colors come from the
+   CSS variables in _sass/theme/_default_{light,dark}.scss.
+   ========================================================================== */
+
+body {
+  background: var(--global-bg-color);
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page__content,
+.archive {
+  font-size: 1.0625em;
+  line-height: 1.7;
+
+  p > a,
+  li > a {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--global-link-color) 35%, transparent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+    &:hover {
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+a:visited {
+  color: var(--global-link-color-visited);
+}
+
+a:hover {
+  color: var(--global-link-color-hover);
+}
+
+/* Page titles: serif, tight, with a short accent rule beneath */
+.page__title {
+  font-family: $serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 3px;
+    margin-top: 0.6em;
+    background: linear-gradient(90deg,
+      var(--global-base-color) 0 33%,
+      var(--global-mustard-color) 33% 66%,
+      var(--global-accent-color) 66% 100%);
+  }
+}
+
+.page__content .page__kicker {
+  margin: 0 0 1.25em;
+  font-family: $sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-base-color);
+}
+
+.page__lede {
+  font-size: $type-size-5;
+  color: var(--global-text-color-light);
+}
+
+/* Small uppercase section labels with a hairline */
+.section-label,
+.archive > h1:not(.page__title) {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin: 2.5em 0 1em;
+  padding: 0;
+  border: 0;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--global-border-color);
+  }
+}
+
+.page__content .more-link {
+  font-family: $sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Masthead
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  background: color-mix(in srgb, var(--global-bg-color) 88%, transparent);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
+          backdrop-filter: saturate(1.4) blur(10px);
+}
+
+.masthead__menu-item,
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.masthead__menu-item--lg a {
+  font-family: $serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  border-bottom-color: var(--global-accent-color);
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar / author profile
+   -------------------------------------------------------------------------- */
+
+.author__avatar img {
+  aspect-ratio: 1;
+  object-fit: cover;
+
+  @include breakpoint($large) {
+    padding: 4px;
+    border: 2px solid var(--global-base-color);
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--global-mustard-color) 35%, transparent);
+  }
+}
+
+.author__name {
+  font-family: $serif;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: var(--global-accent-color);
+  font-weight: 500;
+}
+
+.author__urls a {
+  transition: color 0.15s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Publications
+   -------------------------------------------------------------------------- */
+
+.pub-list {
+  margin-top: 1.5em;
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 4.25em 1fr;
+  gap: 0 1.25em;
+  padding: 1.1em 0;
+  border-top: 1px solid var(--global-border-color);
+
+  &--same-year {
+    border-top-style: dashed;
+
+    .pub__year {
+      visibility: hidden;
+    }
+  }
+
+  @include breakpoint(max-width $small) {
+    grid-template-columns: 1fr;
+
+    .pub__year {
+      margin-bottom: 0.25em;
+    }
+
+    &--same-year .pub__year {
+      display: none;
+    }
+  }
+}
+
+.pub__year {
+  padding-top: 0.2em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--global-accent-color);
+}
+
+.pub__title {
+  margin: 0 0 0.3em;
+  font-family: $serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.35;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+}
+
+.pub__authors,
+.pub__venue {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.pub__authors {
+  color: var(--global-text-color-light);
+
+  b {
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+}
+
+.pub__venue {
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.65em 0 0;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.2em 0.7em;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  font-family: $sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--global-text-color) !important;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+
+  i {
+    color: var(--global-base-color);
+  }
+
+  &:hover {
+    border-color: var(--global-base-color);
+    background: var(--global-tint-color);
+  }
+}
+
+.pub-list--compact .pub__venue {
+  display: none;
+}
+
+/* The theme's .page__content heading/paragraph margins are too loose here */
+.page__content,
+.archive {
+  .pub,
+  .talk-list li {
+    p,
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .pub__title {
+      margin-bottom: 0.3em;
+    }
+
+    .pub__links {
+      margin-top: 0.65em;
+    }
+  }
+
+  .section-label {
+    border-bottom: 0;
+  }
+
+  .section-label + .pub-list,
+  .section-label + .talk-list {
+    margin-top: 0;
+
+    > :first-child {
+      border-top: 0;
+      padding-top: 0.25em;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Talks (home)
+   -------------------------------------------------------------------------- */
+
+.talk-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 4.25em 1fr;
+    gap: 0 1.25em;
+    padding: 0.9em 0;
+    border-top: 1px solid var(--global-border-color);
+
+    @include breakpoint(max-width $small) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__date {
+    padding-top: 0.2em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: 600;
+    color: var(--global-accent-color);
+    white-space: nowrap;
+  }
+
+  &__body > a {
+    font-weight: 600;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+
+  &__venue {
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Grunt figure (home)
+   -------------------------------------------------------------------------- */
+
+figure.grunt {
+  display: block;
+  width: fit-content;
+  margin: 3em 0 1em;
+  padding: 0.75em;
+  border-radius: 12px;
+  background: var(--global-tint-color);
+
+  img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  figcaption {
+    max-width: 300px;
+    margin: 0.6em 0.25em 0;
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Research projects
+   -------------------------------------------------------------------------- */
+
+.project {
+  position: relative;
+  margin: 1.5em 0;
+  padding: 1.5em 1.75em 1em;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-base-color);
+  border-radius: 10px;
+  background: var(--global-card-bg-color);
+
+  h2 {
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-family: $serif;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
+
+.project__icon {
+  float: right;
+  margin: 0.25em 0 0 1em;
+  font-size: 1.5em;
+  color: var(--global-accent-color);
+  opacity: 0.85;
+}
+
+/* --------------------------------------------------------------------------
+   CV
+   -------------------------------------------------------------------------- */
+
+.page--cv .archive {
+  > ul {
+    padding-left: 0;
+    list-style: none;
+
+    > li {
+      position: relative;
+      margin: 0;
+      padding: 0 0 1em 1.5em;
+      border-left: 2px solid var(--global-border-color);
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0.55em;
+        left: -6px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--global-bg-color);
+        border: 2px solid var(--global-base-color);
+      }
+
+      &:last-child {
+        border-left-color: transparent;
+      }
+
+      > ul {
+        margin-top: 0.25em;
+        font-size: 0.92em;
+        color: var(--global-text-color-light);
+      }
+    }
+  }
+
+  /* Talks / teaching / publications lists rendered from collections */
+  .list__item {
+    li {
+      list-style: none;
+    }
+
+    .archive__item-title {
+      margin-top: 0.75em;
+      font-size: 1em;
+    }
+
+    .archive__item-excerpt,
+    .page__meta {
+      font-size: 0.85em;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Archive items (teaching, talks)
+   -------------------------------------------------------------------------- */
+
+.archive__item-title {
+  font-family: $serif;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+  border-top: 1px solid var(--global-border-color);
+}

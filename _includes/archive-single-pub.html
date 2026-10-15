@@ -1,0 +1,22 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% if post.citation %}
+  {% assign authors = post.citation | split: " (" | first %}
+{% endif %}
+
+<article class="pub{% if show_year == false %} pub--same-year{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="pub__year">{{ post.date | default: "1900-01-01" | date: "%Y" }}</div>
+  <div class="pub__body">
+    <h3 class="pub__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></h3>
+    {% if authors %}<p class="pub__authors">{{ authors }}</p>{% endif %}
+    {% if post.venue %}<p class="pub__venue">{{ post.venue }}</p>{% endif %}
+    {% if post.paperurl or post.slidesurl or post.bibtexurl %}
+      <p class="pub__links">
+        {% if post.paperurl %}<a class="pill" href="{{ post.paperurl | strip }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>{% endif %}
+        {% if post.slidesurl %}<a class="pill" href="{{ post.slidesurl }}"><i class="fas fa-person-chalkboard" aria-hidden="true"></i> Slides</a>{% endif %}
+        {% if post.bibtexurl %}<a class="pill" href="{{ post.bibtexurl }}"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</a>{% endif %}
+      </p>
+    {% endif %}
+  </div>
+</article>

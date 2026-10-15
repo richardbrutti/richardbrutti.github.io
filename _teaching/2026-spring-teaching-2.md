@@ -5,6 +5,7 @@ type: "Teaching Assistant"
 permalink: /teaching/2026-spring-teaching-2
 venue: "Brandeis, Computer Science Department"
 date: 2026-01-01
+term: "Spring"
 location: "Waltham, USA"
 ---
 
