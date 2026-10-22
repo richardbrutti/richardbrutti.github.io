@@ -50,10 +50,7 @@ a:hover {
     width: 2.5rem;
     height: 3px;
     margin-top: 0.6em;
-    background: linear-gradient(90deg,
-      var(--global-base-color) 0 33%,
-      var(--global-mustard-color) 33% 66%,
-      var(--global-accent-color) 66% 100%);
+    background: var(--global-accent-color);
   }
 }
 
