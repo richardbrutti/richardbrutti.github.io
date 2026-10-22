@@ -1,7 +1,7 @@
 ---
 title: "Exploring the Potential of Generative Artificial Intelligence in Enhancing Computational Thinking in Digital Literacy and Computer Science Education"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2026-exploring-potential
 excerpt: 'This conceptual article examines resources for facilitating computational thinking (CT) in Massachusetts schools within the context of the Digital Literacy and Computer Science (DLCS) Curriculum Framework.'
 date: 2026-05-02
