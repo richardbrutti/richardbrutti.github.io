@@ -190,6 +190,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - house-style.md
   - tmp
   - vendor
 keep_files:

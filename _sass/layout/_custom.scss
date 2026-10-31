@@ -18,14 +18,9 @@ body {
   p > a,
   li > a {
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--global-link-color) 35%, transparent);
     text-decoration-thickness: 1px;
     text-underline-offset: 0.18em;
-    transition: color 0.15s ease, text-decoration-color 0.15s ease;
-
-    &:hover {
-      text-decoration-color: currentColor;
-    }
+    transition: color 0.15s ease;
   }
 }
 
@@ -124,9 +119,9 @@ a:hover {
 }
 
 .masthead__menu-item--lg a {
-  font-family: $serif;
+  font-family: $sans-serif;
   font-size: 1.15em;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
@@ -146,7 +141,7 @@ a:hover {
   @include breakpoint($large) {
     padding: 4px;
     border: 2px solid var(--global-base-color);
-    box-shadow: 0 0 0 5px color-mix(in srgb, var(--global-mustard-color) 35%, transparent);
+    box-shadow: 0 0 0 5px var(--global-border-color);
   }
 }
 
@@ -202,9 +197,9 @@ a:hover {
 
 .pub__year {
   padding-top: 0.2em;
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-6;
-  font-weight: 600;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
   color: var(--global-accent-color);
 }
@@ -213,7 +208,7 @@ a:hover {
   margin: 0 0 0.3em;
   font-family: $serif;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.35;
 
   a {
@@ -238,7 +233,7 @@ a:hover {
 
   b {
     color: var(--global-text-color);
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
@@ -340,15 +335,15 @@ a:hover {
 
   &__date {
     padding-top: 0.2em;
-    font-family: $sans-serif;
+    font-family: $monospace;
     font-size: $type-size-6;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--global-accent-color);
     white-space: nowrap;
   }
 
   &__body > a {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--global-text-color);
     text-decoration: none;
 
@@ -487,11 +482,21 @@ figure.grunt {
 
 .archive__item-title {
   font-family: $serif;
-  font-weight: 600;
+  font-weight: 700;
 
   a {
     text-decoration: none;
   }
+}
+
+/* --------------------------------------------------------------------------
+   Dates, durations, counts (house style: always IBM Plex Mono)
+   -------------------------------------------------------------------------- */
+
+.page__meta,
+.date {
+  font-family: $monospace;
+  font-variant-numeric: tabular-nums;
 }
 
 /* --------------------------------------------------------------------------
