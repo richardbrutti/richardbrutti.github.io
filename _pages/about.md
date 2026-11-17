@@ -17,9 +17,11 @@ I also serve as Director of Research at a large SaaS company, managing Machine L
 
 <h2 class="section-label">Grunt Watch</h2>
 
+<div class="home-grunt-watch" markdown="1">
 Non-lexical vocalizations detected in recent podcast episodes. [More on the portfolio page](/portfolio/#grunt-watch).
 
-<a href="https://www.instagram.com/grunt_watch/"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a> · <a href="https://bsky.app/profile/gruntwatch.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i> Bluesky</a>
+<p class="more-link"><a href="https://www.instagram.com/grunt_watch/"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a> · <a href="https://bsky.app/profile/gruntwatch.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i> Bluesky</a></p>
+</div>
 
 <figure class="grunt">
   <img src="/images/blue_striped_grunt_cropped.jpg" alt="Blue striped grunt">
