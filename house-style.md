@@ -155,23 +155,33 @@ attribution   Archivo 400, 22px, muted
 ground        dark-ground
 padding       72px 72px 88px
 wordmark      Archivo 600, 27px, dark-text
+handle        IBM Plex Mono 400, 18px, dark-muted, right-aligned
 rule          2px dark-text, 18px below wordmark
-spectrogram   936px wide, purple ramp, fixed 1.2s window
-waveform      lilac, directly beneath the spectrogram
-axis line     IBM Plex Mono 400, 20px, dark-muted
-              "0 — 1.2 s · 4 kHz · token 0.21 s"
+spectrogram   936 × 860px, purple ramp
+waveform      110px, lilac, directly beneath the spectrogram
+axis line     IBM Plex Mono 400, 29px, dark-muted
 token         Archivo 800 italic, fit to width, dark-text
-gloss         Merriweather 400, 44px / 1.45, dark-text
-attribution   Archivo 400, 23px, dark-muted
+gloss         Merriweather 400, 38px / 1.45, dark-text
+attribution   Archivo 400, 32px, dark-muted; air date in IBM Plex Mono
 ```
 
-Specimen sizing (both cards): scale the token so it spans ~820px of the
-936px measure, clamped to 90–320px. Never let it wrap.
+Specimen sizing, by card:
+
+- Osservatorio headword spans ~820px, clamped to 90–320px.
+- Grunt Watch token spans ~600px, clamped to 90–220px.
+
+Never let either wrap. Fit by measuring the rendered word, not by
+letter count.
 
 Gloss: one sentence, 10–14 words, 18 / ~110 characters hard maximum.
 The claim only — no names, no setup. Those go in the caption.
 
+Time window: the window is whatever the token needs, fades included.
+A token is never clipped to fit. The axis reports the true duration,
+which is what makes length legible; cards do not need matching windows.
+
 Spectrogram rendering: narrowband window so harmonics resolve as
 distinct horizontal lines, hard floor so the background is true
-`dark-ground`, fixed 1.2s time window and 4kHz ceiling on every card so
-durations are comparable across posts.
+`dark-ground`, 4kHz ceiling on every card.
+
+Renderer: `viz/grunt_viz.py --theme house`, fonts in `viz/fonts/`.

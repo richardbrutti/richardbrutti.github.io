@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="page__kicker">PhD, Computational Linguistics · Director of Research</p>
+<p class="page__kicker">PhD, Computational Linguistics · Research Leader</p>
 
 Hello! I recently completed my PhD in Computer Science (Computational Linguistics) at Brandeis University, advised by Professor James Pustejovsky. My dissertation, *["Uh, Actually: Grunt Acts as Grounding Contributions in Multimodal Dialogue"](https://richardbrutti.github.io/files/Brutti_Dissertation.pdf)*, focuses on formal semantic and computational models for non-verbal communication, such as gesture and grunts, using naturalistic multimodal data. 
 
