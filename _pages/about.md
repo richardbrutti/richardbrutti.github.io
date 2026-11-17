@@ -15,31 +15,11 @@ Learning what my last name means sent me down the linguistics path. I received m
 
 I also serve as Director of Research at a large SaaS company, managing Machine Learning and Annotation teams focused on speech, audio, and NLP. Beyond my dissertation work, I have published on emotion recognition in speech, technology in education, and food and language.
 
-{% include base_path %}
+<h2 class="section-label">Grunt Watch</h2>
 
-<h2 class="section-label">Recent publications</h2>
-{% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign prev_year = "" %}
-<div class="pub-list pub-list--compact">
-{% for post in pubs limit: 3 %}
-  {% assign year = post.date | date: "%Y" %}
-  {% if year != prev_year %}{% assign show_year = true %}{% else %}{% assign show_year = false %}{% endif %}
-  {% include archive-single-pub.html %}
-  {% assign prev_year = year %}
-{% endfor %}
-</div>
-<p class="more-link"><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>
+Non-lexical vocalizations detected in recent podcast episodes. [More on the portfolio page](/portfolio/#grunt-watch).
 
-<h2 class="section-label">Talks</h2>
-<ul class="talk-list">
-{% assign talks = site.talks | sort: "date" | reverse %}
-{% for talk in talks %}
-  <li>
-    <span class="talk-list__date">{{ talk.date | date: "%b %Y" }}</span>
-    <span class="talk-list__body"><a href="{{ base_path }}{{ talk.url }}">{{ talk.title }}</a><br><span class="talk-list__venue">{{ talk.venue }}{% if talk.location %} · {{ talk.location }}{% endif %}</span></span>
-  </li>
-{% endfor %}
-</ul>
+<a href="https://www.instagram.com/grunt_watch/"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a> · <a href="https://bsky.app/profile/gruntwatch.bsky.social"><i class="fab fa-bluesky" aria-hidden="true"></i> Bluesky</a>
 
 <figure class="grunt">
   <img src="/images/blue_striped_grunt_cropped.jpg" alt="Blue striped grunt">
